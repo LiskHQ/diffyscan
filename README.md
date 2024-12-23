@@ -69,7 +69,7 @@ Alternatively, create a new config file named `config.json`,
 Start the script
 
 ```bash
-dyffyscan
+diffyscan
 ```
 
 > Note: Brownie verification tooling might rewrite the imports in the source submission. It transforms relative paths to imported contracts into flat paths ('./folder/contract.sol' -> 'contract.sol'), which makes Diffyscan unable to find a contract for verification.
